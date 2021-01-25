@@ -279,8 +279,10 @@ footer .fas, .fab{
 /*============= MEDIA QUERIES =============*/
 
 /* Medium (md) devices (tablets, 768px and under) */
-@media (max-width: 767px) {
-
+@media (max-width: 768px) {
+	.logos{
+	width:200px;
+	}
 	.card{
 		width:80%;
 		margin:auto;
@@ -291,4 +293,5 @@ footer .fas, .fab{
 	.caption h2{
 		font-size: 1.5em;
 	}
+
 }
