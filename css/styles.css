@@ -301,12 +301,7 @@ footer .fas, .fab{
 		font-size: 2.5em !important;
 		
 	}
-	.table{
-		width:90%;
-		margin:auto;
+	.home-inner{
+		display: none;
 	}
-	.table-com{
-		margin-right:15px;
-	}
-
 }
