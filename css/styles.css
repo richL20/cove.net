@@ -283,13 +283,13 @@ footer .fas, .fab{
 /* Medium (md) devices (tablets, 768px and under) */
 @media (max-width: 768px) {
 	.landing{
-		min-height:130vh;
+		min-height:100vh;
 	}
 	.logos{
 	width:200px;
 	}
 	.card{
-		width:80%;
+		width:90%;
 		margin:auto;
 	}
 	.caption h1{
@@ -306,7 +306,7 @@ footer .fas, .fab{
 		
 	}
 	.table{
-		width:85%;
+		width:90%;
 		margin:auto;
 	}
 
