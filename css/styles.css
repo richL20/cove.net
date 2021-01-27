@@ -293,11 +293,9 @@ footer .fas, .fab{
 		margin:auto;
 	}
 	.caption h1{
-		font-size:2.0em;
+		font-size:1.55em;
 	}
-	.caption h2{
-		font-size: 1.5em;
-	}
+	
 	.secondary{
 		font-size:2.0em !important;
 	}
@@ -309,5 +307,6 @@ footer .fas, .fab{
 		width:90%;
 		margin:auto;
 	}
+	
 
 }
