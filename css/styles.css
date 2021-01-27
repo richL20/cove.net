@@ -282,9 +282,7 @@ footer .fas, .fab{
 
 /* Medium (md) devices (tablets, 768px and under) */
 @media (max-width: 768px) {
-	.landing{
-		min-height:100vh;
-	}
+	
 	.logos{
 	width:200px;
 	}
@@ -307,7 +305,7 @@ footer .fas, .fab{
 		width:90%;
 		margin:auto;
 	}
-	.table-gov{
+	.table-com{
 		margin-right:15px;
 	}
 
