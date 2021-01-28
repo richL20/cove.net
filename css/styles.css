@@ -302,6 +302,7 @@ footer .fas, .fab{
 		
 	}
 	.home-wrap{
-		height:100vh;
+		display:none;
 	}
+	
 }
