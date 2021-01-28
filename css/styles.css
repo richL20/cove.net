@@ -301,7 +301,7 @@ footer .fas, .fab{
 		font-size: 2.5em !important;
 		
 	}
-	.home-inner{
-		display: none;
+	.home-wrap{
+		height:100vh;
 	}
 }
