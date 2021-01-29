@@ -95,6 +95,13 @@ hr {
 #myBtn:hover {
 	background-color:darkred;
 }
+.nav-btn{
+	background-color:#171717;
+	border:none;
+}
+.nav-btn:hover{
+	background-color:#171717;
+}
 
 /*-- Fixed Landing Page Section --*/
 
@@ -283,6 +290,25 @@ footer .fas, .fab{
 	transition: .7s;
 	cursor: pointer;
 }
+.container-box
+{
+	display:inline-block; 
+	padding:10px; 
+	background: rgba(255, 255, 255, .8);
+	border: 1px solid #fff;	
+	position: fixed;
+  	top: 55%;
+  	left: 0;
+
+}
+
+.modal-content
+{
+	background: rgba(255, 255, 255,);	
+}
+.modal-title{
+	text-align:left !important;
+}
 /*============= MEDIA QUERIES =============*/
 
 /* Medium (md) devices (tablets, 768px and under) */
@@ -296,7 +322,7 @@ footer .fas, .fab{
 		margin:auto;
 	}
 	.caption h1{
-		font-size:1.55em;
+		font-size:2.56em;
 	}
 	
 	.secondary{
