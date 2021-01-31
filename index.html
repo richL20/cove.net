@@ -31,20 +31,24 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#head">Home <span class="sr-only">(current)</span></a>
+					<li class="nav-item dropdown">
+	   <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">HOME</a>
+	    <ul class="dropdown-menu">
+		    <li><a class="dropdown-item" href="#about">About Us</a></li>
+		    <li><a class="dropdown-item" href="#services">Services</a></li>
+				<li><a class="dropdown-item" href="#projects">Projects</a></li>
+				<li><a class="dropdown-item" href="#partners">Parteners</a></li>
+				<li><a class="dropdown-item" href="#clients">Clients</a></li>
+						</ul>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#services">Services</a>
+						<a class="nav-link" href="services.html">Services</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#partners">Partners</a>
+						<a class="nav-link" href="projects.html">Projects</a>
 					</li>
 					<li class="nav-item">
 						<button type="button" class="btn  btn-sm nav-link nav-btn" data-toggle="modal" data-target="#myModal">Contact Us</button>
@@ -454,9 +458,9 @@
 					</div>
 				</div>
 			</div>
-				<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 		</div>
-	
+
 	</section>
 	<!-- end clients-->
 	<section id="certs">
@@ -514,15 +518,15 @@
 				<div class="modal-header">
 					<h4 class="text-center">Contact Us</h4>
 					<button type="button" class="close float-right" data-dismiss="modal"><i class="fas fa-times"></i></button>
-					
+
 				</div>
 				<div class="modal-body">
 
 					<form role="form" method="post" id="reused_form">
 						<p class="text-danger">Call us at: [724] 271-8817</p>
 						<p>OR</p>
-						<p>Send us a message and we will contact you soon!</p> 
-							<div class="form-group">
+						<p>Send us a message and we will contact you soon!</p>
+						<div class="form-group">
 							<label for="name">
 								Name:</label>
 							<input type="text" class="form-control" id="name" name="name" required maxlength="50">

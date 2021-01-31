@@ -9,7 +9,7 @@ body {
 
 	font-family: 'Poppins', sans-serif;
 	background-color: ghostwhite;
-	
+
 }
 
 h1,
@@ -23,7 +23,7 @@ h2 {
 
 .secondary {
 	color: #806666;
-	font-size:2.5em;
+	font-size: 2.5em;
 }
 
 p {
@@ -35,10 +35,11 @@ li {
 	font-size: 1.2em;
 	font-weight: 500;
 }
-.head{
+
+.head {
 	padding-top:
 		100px;
-	
+
 }
 
 /*-- navbar --*/
@@ -47,34 +48,38 @@ li {
 }
 
 
- .fa-bars {
+.fa-bars {
 	color: white;
 	font-size: 1.4em;
 }
 
 .nav-link {
-	color:whitesmoke!important;
+	color: whitesmoke !important;
 	font-size: 1.0em;
 	letter-spacing: 1px;
-	font-weight:lighter;
+	font-weight: lighter;
 	text-transform: uppercase;
 }
-.nav-link:hover{
-color:dimgray !important;
-transition:.5s;
+
+.nav-link:hover {
+	color: dimgray !important;
+	transition: .5s;
 }
+
 .btn {
-	background-color:darkred;
-	color:white;
+	background-color: darkred;
+	color: white;
 	text-transform: uppercase;
 	border-radius: 25px;
 
 }
-.btn:hover{
-	background-color:crimson;
-	color:white;
-	transition:.7s;
-	
+
+.btn:hover {
+	background-color: crimson;
+	color: white;
+	transition: .7s;
+
+
 }
 
 hr {
@@ -90,22 +95,24 @@ hr {
 	font-size: 18px;
 	border: none;
 	outline: none;
-	background-color:crimson;
+	background-color: crimson;
 	color: white;
 	cursor: pointer;
-	padding:10px 15px ;
+	padding: 10px 15px;
 	border-radius: 50%;
 }
 
 #myBtn:hover {
-	background-color:darkred;
+	background-color: darkred;
 }
-.nav-btn{
-	background-color:#171717;
-	border:none;
+
+.nav-btn {
+	background-color: #171717;
+	border: none;
 }
-.nav-btn:hover{
-	background-color:#171717;
+
+.nav-btn:hover {
+	background-color: #171717;
 }
 
 /*-- Fixed Landing Page Section --*/
@@ -179,17 +186,18 @@ hr {
 	font-size: 1.3em;
 }
 
-#about .btn{
-	background-color:darkred;
-	border:2px solid darkred;
-	transition:.7s;
-	color:white;
+#about .btn {
+	background-color: darkred;
+	border: 2px solid darkred;
+	transition: .7s;
+	color: white;
 }
-#about .btn:hover{
-	background-color:crimson;
-	color:white;
-	border:2px solid darkred;
-	transition:.7s;
+
+#about .btn:hover {
+	background-color: crimson;
+	color: white;
+	border: 2px solid darkred;
+	transition: .7s;
 }
 
 
@@ -223,27 +231,32 @@ hr {
 	padding-bottom: 10px;
 	font-size: 1.4em;
 }
-.card-footer{
-	background-color:#171717;
+
+.card-footer {
+	background-color: #171717;
 }
-#projects .btn{
-	background-color:darkred;
-	border:2px solid darkred;
-	transition:.7s;
-	color:white;
+
+#projects .btn {
+	background-color: darkred;
+	border: 2px solid darkred;
+	transition: .7s;
+	color: white;
 }
-#projects .btn:hover{
-	background-color:crimson;
-	color:white;
-	border:2px solid darkred;
-	transition:.7s;
-	
+
+#projects .btn:hover {
+	background-color: crimson;
+	color: white;
+	border: 2px solid darkred;
+	transition: .7s;
+
 }
+
 /*=== partners ===*/
 #partners {
-
-	padding-top: 100px;
 	min-height: 100vh;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
 
 }
 
@@ -257,6 +270,7 @@ hr {
 #clients {
 	min-height: 100vh;
 	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 th {
@@ -272,8 +286,9 @@ th {
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
-#certs h2{
-	font-size:2.5em;
+
+#certs h2 {
+	font-size: 2.5em;
 }
 
 /*=== footer ===*/
@@ -283,62 +298,86 @@ footer {
 	padding-top: 10px;
 }
 
-footer .fas, .fab{
-	color:goldenrod;
-	font-size:2.0em;
-	padding-top:30px;
-	padding-bottom:5px;
+footer .fas,
+.fab {
+	color: goldenrod;
+	font-size: 2.0em;
+	padding-top: 30px;
+	padding-bottom: 5px;
 }
 
- .fab:hover {
+.fab:hover {
 	opacity: .6;
 	transition: .7s;
 	cursor: pointer;
 }
-.container-box
-{
-	display:inline-block; 
-	padding:10px; 
+
+.container-box {
+	display: inline-block;
+	padding: 10px;
 	background: rgba(255, 255, 255, .8);
-	border: 1px solid #fff;	
+	border: 1px solid #fff;
 	position: fixed;
-  	top: 55%;
-  	left: 0;
+	top: 55%;
+	left: 0;
 
 }
 
-.modal-content
-{
-	background: rgba(255, 255, 255,);	
+.modal-content {
+	background: rgba(255, 255, 255, );
 }
-.modal-title{
-	text-align:left !important;
+
+.modal-title {
+	text-align: left !important;
 }
+
 /*============= MEDIA QUERIES =============*/
 
 /* Medium (md) devices (tablets, 768px and under) */
 @media (max-width: 768px) {
-	
-	.logos{
-	width:200px;
+
+	.logos {
+		width: 200px;
 	}
-	.card{
-		width:90%;
-		margin:auto;
+
+	.card {
+		width: 90%;
+		margin: auto;
 	}
-	.caption h1{
-		font-size:2.56em;
+
+	.caption h1 {
+		font-size: 2.56em;
 	}
-	
-	.secondary{
-		font-size:2.0em !important;
+
+	.secondary {
+		font-size: 2.0em !important;
 	}
-	h2{
+
+	h2 {
 		font-size: 2.5em !important;
-		
+
 	}
-	.home-wrap{
-		display:none;
+
+	.home-wrap {
+		display: none;
 	}
-	
+
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+		display: none;
+	}
+
+	.navbar .nav-item:hover .nav-link {
+		color: #fff;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu {
+		display: block;
+	}
+
+	.navbar .nav-item .dropdown-menu {
+		margin-top: 0;
+	}
 }
