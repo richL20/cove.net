@@ -168,6 +168,18 @@ hr {
 	font-size: 2.75em;
 
 }
+.down {
+	animation: down 1.75s ease-out;
+}
+.up{
+	animation: up 1.75s ease-out;
+	
+}
+.right {
+	animation: right 1.75s ease-out;
+}
+
+
 
 
 /*=== about ===*/
@@ -379,5 +391,49 @@ footer .fas,
 
 	.navbar .nav-item .dropdown-menu {
 		margin-top: 0;
+	}
+}
+/*==== key frames =====*/
+
+
+
+@keyframes up {
+	0% {
+		opacity: 0;
+		transform: translateY(100px)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+@keyframes down {
+	0% {
+		opacity: 0;
+		transform: translateY(-200px)
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+@keyframes right {
+	0% {
+		opacity: 0;
+		transform: translateY(175px)
+	}
+	80%{opacity:0;
+	}
+	95%{
+		opacity:.5;
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0)
 	}
 }
