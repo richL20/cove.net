@@ -32,7 +32,7 @@ p {
 }
 
 li {
-	font-size: 1.2em;
+	font-size: 1.05em;
 	font-weight: 500;
 }
 
@@ -186,6 +186,7 @@ hr {
 #about {
 	min-height: 100vh;
 	padding-top: 100px;
+	background-color:#eeeeee;
 }
 
 
@@ -195,12 +196,12 @@ hr {
 }
 
 #about p {
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 #about .btn {
 	background-color: darkred;
-	border: 2px solid darkred;
+	
 	transition: .7s;
 	color: white;
 }
@@ -208,7 +209,7 @@ hr {
 #about .btn:hover {
 	background-color: crimson;
 	color: white;
-	border: 2px solid darkred;
+	
 	transition: .7s;
 }
 
@@ -230,6 +231,7 @@ hr {
 #projects {
 	min-height: 100vh;
 	padding-top: 100px;
+	background-color:#eeeeee;
 
 
 }
@@ -239,9 +241,9 @@ hr {
 }
 
 .li {
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 10px;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 .card-footer {
@@ -250,7 +252,7 @@ hr {
 
 #projects .btn {
 	background-color: darkred;
-	border: 2px solid darkred;
+	
 	transition: .7s;
 	color: white;
 }
@@ -258,7 +260,7 @@ hr {
 #projects .btn:hover {
 	background-color: crimson;
 	color: white;
-	border: 2px solid darkred;
+	
 	transition: .7s;
 
 }
@@ -314,6 +316,7 @@ footer .fas,
 .fab {
 	color: goldenrod;
 	font-size: 2.0em;
+	padding:30px 5px 10px 0 ;
 	padding-top: 30px;
 	padding-bottom: 5px;
 }
@@ -379,6 +382,10 @@ footer .fas,
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu {
 		display: none;
+	}
+	.logos{
+		width:95%;
+		padding-left:50px;
 	}
 
 	.navbar .nav-item:hover .nav-link {
