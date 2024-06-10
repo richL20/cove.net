@@ -185,7 +185,7 @@ hr {
 
 #about .btn {
   background-color: darkred;
-
+text-align:left;
   transition: 0.7s;
   color: white;
 }
